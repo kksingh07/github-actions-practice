@@ -1,0 +1,18 @@
+# Workflow
+name: Hello
+
+# on tells when the workflow should run
+on:
+  workflow_dispatch: 
+   
+# jobs tells what the workflow should do
+jobs:
+  # 1st Job 
+  say-hello:
+    # Creates an Ephemeral Container with Ubuntu running
+    runs-on: ubuntu-latest
+    # that ephemeral container will have steps to execute, hence name those steps and use run: , mention command in it
+    steps:
+      - name: Say hello to everyone
+        run: echo "Hello Dosto"
+ 
