@@ -1,4 +1,4 @@
-# Goal - whenever some updation in python code then to check - syntax, format, indentation --> Basically to check the Linting
+# Goal - whenever some updation in python code then Linter check - syntax, format, indentation
 name: Auto Linter
 
 on:
